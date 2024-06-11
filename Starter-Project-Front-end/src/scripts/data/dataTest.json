@@ -1,0 +1,21 @@
+{
+    "data": [
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 100,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/sungai sekonyer.jpg", "name": "sungai Sekonyer", "price": "Rp. 150,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/tanjung-puting.jpg", "name": "Tanjung Puting", "price": "Rp. 200,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/sabari.jpg", "name": "Sabari", "price": "Rp. 250,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/sabari.jpg", "name": "Sabari", "price": "Rp. 250,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/tanjung-puting.jpg", "name": "Tanjung Puting", "price": "Rp. 250,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/sungai sekonyer.jpg", "name": "sungai Sekoyer", "price": "Rp. 250,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Tengah" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Timur" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Timur" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Timur" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Selatan" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Selatan" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Utara" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Utara" },
+      { "img": "../../../../public/images/heros/bukit-batu-2.jpg", "name": "Bukit Batu", "price": "Rp. 250,000", "category": "Kalimantan Barat" }
+    ]
+  }
+  
