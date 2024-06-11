@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Admin</title>
+    <link rel="stylesheet" href="../../../styles/loginAdmin-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-section"></div>
+      <div class="form-section">
+        <div class="logo">
+          <img src="../../../public/images/heros/logo-one.png" alt="" />
+        </div>
+        <h2 style="margin-bottom: 10px">Buat akun Anda</h2>
+        <form action="#" method="post">
+          <input type="text" class="form-control" placeholder="Nama lengkap" />
+          <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]*" inputmode="numeric" maxlength="15" placeholder="Masukkan nomor HP Anda" oninput="validateInput(this)" required />
+          <div class="select">
+            <select required id="gender" aria-label="Default select example">
+              <option value="" disabled selected>Jenis kelamin</option>
+              <option value="male">Laki-laki</option>
+              <option value="female">Perempuan</option>
+            </select>
+          </div>
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <input type="password" placeholder="Masukkan key-admin" required />
+          <button type="submit">Daftar</button>
+        </form>
+        <div class="form-text">Sudah punya akun? <a href="loginAdmin.html" class="create-account">Masuk akun</a></div>
+      </div>
+    </div>
+    <script src="validation.js"></script>
+  </body>
+</html>
