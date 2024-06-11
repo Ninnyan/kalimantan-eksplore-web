@@ -1,0 +1,79 @@
+body {
+    font-family: "poppins",arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;            
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+.text-section {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 20px;
+}
+.text-section h1 {
+    color: #007D46;
+    font-size: 40px;
+    margin-top: 70px;
+}
+.text-section p {
+    line-height: 1.6;
+    color: #333;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #00b167;
+    color: #00b167;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.cta-button:hover {
+    background-color: #00b167;
+    color: white;
+}
+.logo-section {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.logo-section img {
+    max-width: 100%;
+    height: auto;
+}
+.social-media-profil {
+    margin-top: 15px;
+}
+.social-media-profil a {
+    margin: 0 10px;
+    color: #00b167;
+    text-decoration: none;
+    font-size: 35px;
+}
+.social-media-profil a:hover {
+    color: #007d4f;
+} 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-section, .logo-section {
+        max-width: 100%;
+    }
+}
