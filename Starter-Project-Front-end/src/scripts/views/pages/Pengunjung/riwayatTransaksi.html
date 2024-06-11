@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riwayat Transaksi</title>
+  <link rel="stylesheet" href="../../../../styles/main-style.css" />
+  <link rel="stylesheet" href="../../../../styles/riwayatTransaksi.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <app-navbar></app-navbar>
+  <main>
+    <section class="riwayat-transaksi">
+      <h1>Riwayat Transaksi</h1>
+      <div class="card-container">
+        <div class="transaksi-card">
+          <img src="../../../../public/images/heros/tanjung-puting.jpg" alt="Bukit Batu">
+          <div class="transaksi-info">
+            <div class="transaksi-header">
+              <div>
+                <p class="id-transaksi">kode Transaksi</p>
+                <h2>Tanjung Puting</h2>
+                <p class="lokasi"><i class="fa-solid fa-location-dot"></i> Katingan, Kalimantan Tengah</p>
+                <p class="tiket-total">jumlah tiket: 1</p>
+              </div>
+              <button class="delete-btn"><i class="fa fa-trash"></i></button>
+            </div>
+            <div class="transaksi-footer">
+              <p>Total: <span class="price">Rp. 10.000</span></p>
+              <button class="buy-btn"><i class="fa fa-shopping-cart"></i> Bayar</button>
+            </div>
+          </div>
+        </div>
+        <div class="transaksi-card">
+          <img src="../../../../public/images/heros/bukit-batu-2.jpg" alt="Bukit Batu">
+          <div class="transaksi-info">
+            <div class="transaksi-header">
+              <div>
+                <p class="id-transaksi">kode Transaksi</p>
+                <h2>Bukit Batu</h2>
+                <p class="lokasi"><i class="fa-solid fa-location-dot"></i> Katingan, Kalimantan Tengah</p>
+                <p class="tiket-total">jumlah tiket: 1</p>
+              </div>
+              <button type="button" class="delete-btn"><i class="fa fa-trash"></i></button>
+            </div>
+            <div class="transaksi-footer">
+              <p>Total: <span class="price">Rp. 10.000</span></p>
+              <button class="buy-btn"><i class="fa fa-shopping-cart"></i> Bayar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <app-footer></app-footer>
+  <script type="module" src="../../appPengunjung.js"></script>
+</body>
+</html>
