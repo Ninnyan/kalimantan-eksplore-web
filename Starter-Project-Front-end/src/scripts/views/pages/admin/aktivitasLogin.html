@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aktifitas Login User</title>
+    <link rel="stylesheet" href="../../../../styles/adminStyle.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <custom-navbar></custom-navbar>
+    <custom-sidebar></custom-sidebar>
+    <div class="content">
+      <div class="aktivitas-header">
+        <h3>Aktifitas Login User</h3>
+        <div class="dropdown">
+          <button class="btn btn-filter dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-filter"></i> Filter
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick="filterGender('Laki-laki')"><i class="fa-solid fa-mars"></i> Laki-laki</a>
+            <a class="dropdown-item" href="#" onclick="filterGender('Perempuan')"><i class="fa-solid fa-venus"></i> Perempuan</a>
+            <a class="dropdown-item" href="#" onclick="filterGender('')"><i class="fa-solid fa-venus-mars"></i> Semua</a>
+          </div>
+        </div>
+      </div>
+      <div class="riwayat-container">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="left-table">Nama</th>
+                <th>Email</th>
+                <th>No Telpon</th>
+                <th>Jenis kelamin</th>
+                <th>Tanggal</th>
+                <th class="right-table">Aktifitas</th>
+              </tr>
+            </thead>
+            <tbody id="userTableBody">
+              </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <ul class="pagination" id="pagination"></ul>
+        <!-- pagination -->
+      </div>
+    </div>
+    <custom-footer></custom-footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="../../appAdmin.js"></script>
+    <script src="../aktivitasLoginScript.js"></script>
+  </body>
+</html>

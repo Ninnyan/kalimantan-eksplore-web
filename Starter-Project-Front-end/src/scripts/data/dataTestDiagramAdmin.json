@@ -1,0 +1,67 @@
+{
+    "pendapatan_tahunan": {
+      "2021": {
+        "total": 100000,
+        "detail": {
+          "Januari": 8000,
+          "Februari": 8500,
+          "Maret": 9000,
+          "April": 9500,
+          "Mei": 10000,
+          "Juni": 10500,
+          "Juli": 11000,
+          "Agustus": 11500,
+          "September": 12000,
+          "Oktober": 12500,
+          "November": 13000,
+          "Desember": 13500
+        }
+      },
+      "2022": {
+        "total": 150000,
+        "detail": {
+          "Januari": 14000,
+          "Februari": 14500,
+          "Maret": 15000,
+          "April": 15500,
+          "Mei": 16000,
+          "Juni": 16500,
+          "Juli": 17000,
+          "Agustus": 17500,
+          "September": 18000,
+          "Oktober": 18500,
+          "November": 19000,
+          "Desember": 19500
+        }
+      },
+      "2023": {
+        "total": 200000,
+        "detail": {
+          "Januari": 20000,
+          "Februari": 20500,
+          "Maret": 21000,
+          "April": 21500,
+          "Mei": 22000,
+          "Juni": 22500,
+          "Juli": 23000,
+          "Agustus": 23500,
+          "September": 24000,
+          "Oktober": 24500,
+          "November": 25000,
+          "Desember": 25500
+        }
+      },
+      "2024": {
+        "total": 250000,
+        "detail": {
+          "Januari": 25000,
+          "Februari": 25500,
+          "Maret": 26000,
+          "April": 26500,
+          "Mei": 27000,
+          "Juni": 27500
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,51 @@
+[
+    {
+      "nama": "Budi",
+      "email": "budi20@gmail.com",
+      "noTelpon": "08233445566",
+      "jenisKelamin": "Laki-laki",
+      "tanggal": "20/10/2024",
+      "aktifitas": "Login"
+    },
+    {
+      "nama": "Ani",
+      "email": "ani45@gmail.com",
+      "noTelpon": "08233445567",
+      "jenisKelamin": "Perempuan",
+      "tanggal": "20/10/2024",
+      "aktifitas": "Login"
+    },
+    {
+        "nama": "Ani",
+        "email": "ani45@gmail.com",
+        "noTelpon": "08233445567",
+        "jenisKelamin": "Perempuan",
+        "tanggal": "20/10/2024",
+        "aktifitas": "Logout"
+      },
+      {
+        "nama": "Budi",
+        "email": "budi20@gmail.com",
+        "noTelpon": "08233445567",
+        "jenisKelamin": "Laki-laki",
+        "tanggal": "20/10/2024",
+        "aktifitas": "Logout"
+      },
+      {
+        "nama": "Ayu",
+        "email": "ayu99@gmail.com",
+        "noTelpon": "08233445567",
+        "jenisKelamin": "Perempuan",
+        "tanggal": "20/10/2024",
+        "aktifitas": "Login"
+      },
+      {
+        "nama": "Ayu",
+        "email": "ayu99@gmail.com",
+        "noTelpon": "08233445567",
+        "jenisKelamin": "Perempuan",
+        "tanggal": "20/10/2024",
+        "aktifitas": "Login"
+      }
+  ]
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../../../../styles/adminStyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+  <custom-navbar></custom-navbar>
+  <custom-sidebar></custom-sidebar>
+  <div class="content">
+    <div class="card-list">
+      <div class="card">
+        <p>Pengunjung</p>
+        <h4>20</h4>
+        <i class="fa-solid fa-users"></i>
+      </div>
+      <div class="card">
+        <p>Tiket terjual</p>
+        <h4>30</h4>
+        <i class="fa-solid fa-ticket-simple"></i>
+      </div>
+      <div class="card">
+        <p>Pendapatan</p>
+        <h5>Rp. <span class="price">20.000</span></h5>
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+      </div>
+    </div>
+    <div class="diagram">
+      <h2>Diagram Penjualan</h2>
+     
+      <div class="card-diagram">
+        <div class="form-filter">
+          <select id="yearSelect" class="form-control"></select>
+        </div>
+      <div class="chart-container">
+        <div class="chart-item">
+          <canvas id="monthlyIncomeChart"></canvas>
+        </div>
+        <div class="chart-item">
+          <canvas id="yearlyIncomeChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <custom-footer></custom-footer>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="../../appAdmin.js"></script>
+  <script src="../indexScript.js"></script>
+</body>
+</html>
