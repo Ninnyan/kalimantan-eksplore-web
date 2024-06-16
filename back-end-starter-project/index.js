@@ -2,13 +2,14 @@ const express = require('express')
 const dotenv = require("dotenv")
 const route = require('./router')
 const app = express()
-
+const cors = require('cors')
 const expressLayouts = require('express-ejs-layouts');
 const session = require('express-session')
 const cookieParser = require('cookie-parser')
 const flash = require('connect-flash')
 
 dotenv.config()
+app.use(cors())
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -34,8 +35,9 @@ app.use(flash())
 app.use(express.json())
 app.use(route)
 
-
+app.use("/assets", express.static("assets"));
 
 app.listen(process.env.APP_PORT, () => {
   console.log(`Example app listening on port ${process.env.APP_URL}:${process.env.APP_PORT}`)
 })
+module.exports = app;

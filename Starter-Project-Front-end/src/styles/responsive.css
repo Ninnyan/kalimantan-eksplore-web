@@ -1,0 +1,98 @@
+
+
+@media screen and (max-width: 768px) {
+    .nav-center {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .nav-center.show {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .image-1 {
+        grid-area: image-1;
+    }
+
+    .image-2 {
+        grid-area: image-2;
+    }
+
+    .image-3 {
+        grid-area: image-3;
+    }
+
+    .description { 
+        grid-area: description;
+    }
+
+    .ticket-qty {
+        grid-area: ticket-qty;
+    }
+
+    .ticket-total {
+        grid-area: ticket-total;
+    }
+
+    .operation {
+        grid-area: operation;
+    }
+
+    main {
+        height: 240vh;
+    }
+
+    .location {
+        grid-area: location;
+    }
+    
+    .description > .description-button {
+        width: 200px;
+        margin-inline: 15px;
+    }
+    
+    .main-title {
+        margin-left: 40px;
+    }
+
+    .container {
+        grid-template-areas: 
+        'image-1 image-2'
+        'image-1 image-3'
+        'description ticket-qty'
+        'description ticket-total'
+        'description operation'
+        'location location';
+        grid-template-columns: 2fr 1fr;
+        width: 88%;
+        margin-inline: 20px;
+        align-self: center;
+        
+    }
+
+    .container-open-image > .open-image {
+        width: 60%;
+        left: 19%;
+    }
+
+    .container-open-image > .close {
+        font-size: 50px;
+        right: -41%;
+    }
+
+    
+
+}
