@@ -178,7 +178,6 @@ body {
                 <input type="email" class="form-control emailLogin" placeholder="Email">
                 <input type="password" class="form-control passwordLogin"  placeholder="Password">
                 <div class="form-text">
-                <a href="#" class="forgot-password">Lupa password?</a>
                 </div>
                 <button type="button" class="btn btn-primary btn-block loginButton">Masuk</button>
                 
