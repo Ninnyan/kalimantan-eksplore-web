@@ -47,7 +47,7 @@ https://documenter.getpostman.com/view/29696074/2sA3XLDiov
 |/wisata/detail?idWisata={id_wisata}|/GET|-|Mendapatkan Detail Data Wisata|/wisata/detail?idWisata=87e458c4b99b4eaaaffb0|-|
 |/map/get-map?place_id={place_id}|/GET|-|Memperoleh Lokasi Google Map|/provinces/get-map?place_id=ChIJzZZVS8Ij5C0RZYldusnP-tIw|-|
 |/places/delete-destinasi?idWisata={id_wisata}|/DELETE|-|Menghapus Data Wisata|/places/delete-destinasi?idWisata=87e458c4b99b4eaaaffb0|{Authorizations: Bearer {token}}|
-|/wisata/photo?idWisata={id}&photoReference={pilih angka antara 0 sampai 2}|/GET|-|Mendapatkan Data Photo|/wisata/photo?idWisata=87e458c4b99b4eaaaffb0&photoReference=0|{-|
+|/wisata/photo?idWisata={id}&photoReference={pilih angka antara 0 sampai 2}|/GET|-|Mendapatkan Data Photo|/wisata/photo?idWisata=87e458c4b99b4eaaaffb0&photoReference=0|-|
 |/activity/get-activity|/GET|-|Mendapatakan Aktivitas login User|-|{Authorizations: Bearer {token}}|
 |/stock-tiket/stock|/GET|-|Mendapatkan Data Stock Tiket Wisata|-|{Authorizations: Bearer {token}}|
 |/stock-tiket/delete-stock-tiket?idStockTiket={id_stockTiket}|/DELETE|-|Menghapus Data Stock Tiket|/stock-tiket/delete-stock-tiket?idStockTiket=ad91haowhahdo022h0|{Authorizations: Bearer {token}}|

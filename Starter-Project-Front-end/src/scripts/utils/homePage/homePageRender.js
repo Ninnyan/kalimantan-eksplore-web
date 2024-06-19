@@ -511,7 +511,7 @@ class homePage extends HTMLElement {
         </div>
         <div class="hero-text">
           <h5>Selamat datang Di</h5>
-          <h2>Website Kalteng Explore - Wisata berkelanjutan</h2>
+          <h2>Website Kalimantan Explore - Wisata berkelanjutan</h2>
           <button id="exploreButton">Explore Sekarang</button>
         </div>
       </section>

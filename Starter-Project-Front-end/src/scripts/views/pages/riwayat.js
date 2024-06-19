@@ -35,8 +35,8 @@ const RiwayatPage = {
         cardId.addEventListener('click', async (event) => {
             if(event.target.getAttribute('data-id')) {
                 Swal.fire({
-                    title: 'Anda Yakin Ining Membayar ?',
-                    text: "Seteleh Pembayaran Anda, Uang Tidak Kembali !",
+                    title: 'Anda Yakin Ingin Membayar ?',
+                    text: "Seteleh Pembayaran, Uang Anda Tidak bisa Kembali !",
                     icon: 'question',
                     showCancelButton: true,
                     confirmButtonText: 'Yes, Lanjut Bayar!',

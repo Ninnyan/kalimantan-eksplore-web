@@ -14,6 +14,7 @@ import KalimantanSource from "../../../data/kalimantanAPI";
         async _init() {
             const result = await KalimantanSource.getStokTiket()
             data = result.data
+            console.log(data);
             filteredData = result.data
             const stockInput = document.getElementById('stockInput');
             const searchInput = document.getElementById('searchInput');

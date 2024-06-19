@@ -36,7 +36,7 @@ class cardRiwayat extends HTMLElement {
         }
         
         async render() {
-            const dataPhoto = await KalimantanSource.dataPhoto(his._card.id_wisata, this._card.img)
+            const dataPhoto = await KalimantanSource.dataPhoto(this._card.id_wisata, this._card.img)
             this.classList.add('transaksi-card')
             if(this._card.status === 'settlement') {
                 this.innerHTML = `

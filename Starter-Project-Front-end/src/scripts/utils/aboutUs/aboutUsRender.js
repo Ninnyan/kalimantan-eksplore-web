@@ -120,7 +120,7 @@ class aboutUs extends HTMLElement {
           </div>
         </div>
         <div class="logo-section">
-          <img src="..//public/images/heros/logo-one.png" alt="Kalimantan Explore Logo" />
+          <img src="..//public/images/heros/logo.png" alt="Kalimantan Explore Logo" />
         </div>
     `
 

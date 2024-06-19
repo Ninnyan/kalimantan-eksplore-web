@@ -190,6 +190,11 @@ class KalimantanSource {
                 localStorage.removeItem('idWisata');
                 localStorage.removeItem('idOrder');
                 localStorage.removeItem('token');
+                let dropdownMenu = document.querySelector('.dropdown-menu');
+                const dataMenu = `  <a href="/#/login-user" class="login-all"><span class="material-symbols-outlined"> login </span>Masuk</a>
+                <a href="/#/registrasi-user" class="daftar-all"><span class="material-symbols-outlined"> person_edit </span>Daftar</a>`
+                dropdownMenu.innerHTML = ''
+                dropdownMenu.append(dataMenu)
                 Swal.fire({
                     icon: 'success',
                     title: 'Success!',

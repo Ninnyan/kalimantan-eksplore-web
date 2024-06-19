@@ -13,4 +13,4 @@
 * Midtrans Snap pay
 
 ## Note
-* Dikarenakan Menggunakan Hostingan gratis, kami mohon maaf apabila dalam merender data dari website ini mengalami eror, ini diluar kendali kami, Terimakasih !!
+* Dikarenakan Menggunakan Hostingan gratis, kami mohin maaf apabila dalam merender data dari wisata ini mengalami eror, ini diluar kendali kami, Terimakasih !!
